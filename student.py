@@ -195,22 +195,27 @@ with tab2:
         )
         
         if selected_student:
-            student_id = filtered_summary[filtered_summary['Name'] == selected_student]['ID'].values[0]
-            student_scores = scores[scores['ID'] == student_id]
-            
-            if not student_scores.empty:
-                fig = px.bar(
-                    student_scores, 
-                    x='Subject', 
-                    y='Score', 
-                    color='Term',
-                    barmode='group', 
-                    title=f"{selected_student}'s Performance by Subject",
-                    labels={'Score': 'Score (%)'}
-                )
-                st.plotly_chart(fig, use_container_width=True)
+            student_id_arr = filtered_summary[filtered_summary['Name'] == selected_student]['ID'].values
+            if len(student_id_arr) > 0:
+                student_id = student_id_arr[0]
+                student_scores = scores[scores['ID'] == student_id]
+
+                if not student_scores.empty:
+                    fig = px.bar(
+                        student_scores, 
+                        x='Subject', 
+                        y='Score', 
+                        color='Term',
+                        barmode='group', 
+                        title=f"{selected_student}'s Performance by Subject",
+                        labels={'Score': 'Score (%)'}
+                    )
+                    st.plotly_chart(fig, use_container_width=True)
+                else:
+                    st.warning(f"No score data available for {selected_student}")
             else:
-                st.warning(f"No score data available for {selected_student}")
+                st.warning(f"Student ID not found for {selected_student}")
+
 
 with tab3:
     st.header("Attendance Analysis")
