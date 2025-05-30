@@ -1,0 +1,151 @@
+"ID","Assignment","Subject","Deadline","Submitted","Marks"
+"NC001","Homework","Math",2025-05-31,TRUE,48
+"NC001","Case Study","Science",2025-06-07,FALSE,NA
+"NC001","Worksheet","Science",2025-06-02,FALSE,NA
+"NC002","Project","History",2025-05-30,TRUE,59
+"NC002","Presentation","Art",2025-06-11,TRUE,80
+"NC002","Quiz","Art",2025-06-01,TRUE,4
+"NC003","Essay","History",2025-05-30,FALSE,NA
+"NC003","Lab Report","History",2025-06-11,TRUE,59
+"NC003","Lab Report","English",2025-06-10,TRUE,8
+"NC004","Presentation","Science",2025-05-31,TRUE,93
+"NC004","Case Study","Art",2025-06-02,TRUE,46
+"NC004","Presentation","Science",2025-06-08,TRUE,36
+"NC005","Presentation","Art",2025-06-06,TRUE,46
+"NC005","Exam","Math",2025-06-07,TRUE,69
+"NC005","Lab Report","Science",2025-06-07,TRUE,12
+"NC006","Quiz","English",2025-06-06,TRUE,86
+"NC006","Homework","English",2025-05-31,FALSE,NA
+"NC006","Case Study","Science",2025-06-06,TRUE,88
+"NC007","Quiz","Art",2025-06-09,TRUE,8
+"NC007","Essay","English",2025-06-12,TRUE,63
+"NC007","Presentation","English",2025-06-02,TRUE,0
+"NC008","Case Study","History",2025-06-03,FALSE,NA
+"NC008","Exam","Math",2025-05-31,TRUE,73
+"NC008","Essay","Math",2025-05-31,TRUE,62
+"NC009","Exam","Art",2025-06-10,TRUE,83
+"NC009","Exam","Science",2025-06-07,TRUE,83
+"NC009","Essay","Science",2025-06-02,FALSE,NA
+"NC010","Quiz","Science",2025-06-02,TRUE,91
+"NC010","Quiz","History",2025-05-31,TRUE,85
+"NC010","Case Study","History",2025-06-07,TRUE,25
+"NC011","Homework","History",2025-06-01,TRUE,94
+"NC011","Case Study","Math",2025-06-07,TRUE,99
+"NC011","Lab Report","Science",2025-06-03,TRUE,36
+"NC012","Presentation","History",2025-05-30,FALSE,NA
+"NC012","Project","English",2025-05-30,TRUE,95
+"NC012","Lab Report","English",2025-06-10,TRUE,85
+"NC013","Worksheet","Science",2025-06-03,TRUE,54
+"NC013","Presentation","Science",2025-06-02,TRUE,82
+"NC013","Homework","History",2025-06-03,FALSE,NA
+"NC014","Research Paper","Math",2025-06-07,TRUE,9
+"NC014","Research Paper","Art",2025-05-31,FALSE,NA
+"NC014","Project","Math",2025-06-07,TRUE,75
+"NC015","Presentation","History",2025-05-31,TRUE,46
+"NC015","Lab Report","History",2025-06-12,TRUE,2
+"NC015","Case Study","Art",2025-06-02,TRUE,75
+"NC016","Worksheet","English",2025-06-01,TRUE,69
+"NC016","Case Study","English",2025-06-08,TRUE,13
+"NC016","Case Study","History",2025-06-03,TRUE,48
+"NC017","Presentation","Art",2025-06-02,FALSE,NA
+"NC017","Exam","Science",2025-06-02,FALSE,NA
+"NC017","Essay","Art",2025-06-12,TRUE,53
+"NC018","Project","History",2025-06-09,TRUE,31
+"NC018","Project","History",2025-05-30,TRUE,100
+"NC018","Homework","History",2025-05-30,TRUE,14
+"NC019","Research Paper","Art",2025-05-30,TRUE,83
+"NC019","Quiz","Science",2025-06-04,TRUE,40
+"NC019","Quiz","Science",2025-06-04,TRUE,67
+"NC020","Worksheet","History",2025-06-01,TRUE,72
+"NC020","Presentation","Math",2025-06-11,TRUE,69
+"NC020","Exam","Math",2025-05-31,FALSE,NA
+"NC021","Lab Report","Art",2025-06-01,TRUE,24
+"NC021","Presentation","Math",2025-06-06,TRUE,77
+"NC021","Project","English",2025-05-30,TRUE,47
+"NC022","Homework","Science",2025-06-11,TRUE,100
+"NC022","Research Paper","History",2025-06-01,TRUE,91
+"NC022","Quiz","History",2025-06-07,TRUE,73
+"NC023","Worksheet","History",2025-06-07,TRUE,37
+"NC023","Essay","English",2025-05-31,TRUE,52
+"NC023","Worksheet","English",2025-06-10,TRUE,87
+"NC024","Case Study","English",2025-06-11,TRUE,55
+"NC024","Homework","English",2025-06-12,TRUE,40
+"NC024","Project","History",2025-05-31,TRUE,57
+"NC025","Lab Report","English",2025-06-12,TRUE,46
+"NC025","Quiz","Math",2025-06-05,TRUE,48
+"NC025","Exam","Science",2025-06-11,TRUE,49
+"NC026","Research Paper","History",2025-05-31,TRUE,55
+"NC026","Research Paper","Math",2025-06-08,FALSE,NA
+"NC026","Presentation","History",2025-05-31,TRUE,25
+"NC027","Essay","Art",2025-06-05,TRUE,16
+"NC027","Research Paper","History",2025-06-11,FALSE,NA
+"NC027","Quiz","Science",2025-06-08,TRUE,78
+"NC028","Quiz","English",2025-06-03,TRUE,100
+"NC028","Case Study","English",2025-06-12,FALSE,NA
+"NC028","Homework","History",2025-05-31,FALSE,NA
+"NC029","Homework","Math",2025-06-12,TRUE,75
+"NC029","Quiz","Math",2025-06-09,TRUE,12
+"NC029","Essay","History",2025-06-01,TRUE,4
+"NC030","Research Paper","Math",2025-06-10,TRUE,33
+"NC030","Presentation","English",2025-06-11,FALSE,NA
+"NC030","Project","Math",2025-06-10,TRUE,17
+"NC031","Lab Report","Math",2025-06-04,FALSE,NA
+"NC031","Exam","Science",2025-05-31,TRUE,52
+"NC031","Project","Art",2025-06-08,TRUE,76
+"NC032","Worksheet","Science",2025-06-10,TRUE,61
+"NC032","Lab Report","Math",2025-06-05,FALSE,NA
+"NC032","Quiz","English",2025-06-11,FALSE,NA
+"NC033","Homework","Math",2025-06-07,FALSE,NA
+"NC033","Exam","Math",2025-05-31,TRUE,28
+"NC033","Presentation","Science",2025-06-06,TRUE,81
+"NC034","Quiz","Science",2025-06-06,TRUE,91
+"NC034","Exam","English",2025-06-08,TRUE,41
+"NC034","Project","Math",2025-06-06,FALSE,NA
+"NC035","Research Paper","Math",2025-06-11,TRUE,52
+"NC035","Presentation","Art",2025-06-10,TRUE,38
+"NC035","Homework","Science",2025-06-01,TRUE,92
+"NC036","Project","Math",2025-06-10,TRUE,47
+"NC036","Lab Report","Math",2025-06-04,TRUE,34
+"NC036","Project","History",2025-06-04,TRUE,32
+"NC037","Project","Math",2025-06-10,TRUE,3
+"NC037","Research Paper","English",2025-06-10,TRUE,11
+"NC037","Exam","History",2025-05-30,TRUE,1
+"NC038","Case Study","Art",2025-06-06,TRUE,32
+"NC038","Homework","History",2025-06-12,TRUE,91
+"NC038","Essay","History",2025-06-08,TRUE,49
+"NC039","Research Paper","Art",2025-06-12,TRUE,97
+"NC039","Worksheet","Science",2025-06-10,FALSE,NA
+"NC039","Worksheet","Science",2025-06-11,TRUE,47
+"NC040","Presentation","Math",2025-06-04,TRUE,22
+"NC040","Homework","Math",2025-06-04,TRUE,57
+"NC040","Case Study","Science",2025-06-10,TRUE,91
+"NC041","Lab Report","English",2025-06-07,TRUE,20
+"NC041","Presentation","English",2025-06-03,FALSE,NA
+"NC041","Project","Science",2025-06-09,TRUE,30
+"NC042","Presentation","History",2025-05-30,TRUE,88
+"NC042","Research Paper","Science",2025-06-09,TRUE,25
+"NC042","Quiz","English",2025-06-09,TRUE,92
+"NC043","Project","Art",2025-06-11,TRUE,0
+"NC043","Presentation","English",2025-06-11,TRUE,53
+"NC043","Research Paper","History",2025-06-08,TRUE,19
+"NC044","Homework","Math",2025-06-04,TRUE,61
+"NC044","Essay","Art",2025-06-04,TRUE,89
+"NC044","Worksheet","Art",2025-06-09,FALSE,NA
+"NC045","Homework","Math",2025-06-04,FALSE,NA
+"NC045","Presentation","Art",2025-06-05,TRUE,91
+"NC045","Homework","Science",2025-06-04,TRUE,69
+"NC046","Lab Report","Art",2025-06-03,TRUE,65
+"NC046","Project","Science",2025-06-08,TRUE,94
+"NC046","Project","English",2025-05-30,TRUE,10
+"NC047","Worksheet","Math",2025-06-12,FALSE,NA
+"NC047","Worksheet","Math",2025-06-08,TRUE,10
+"NC047","Homework","Science",2025-06-11,TRUE,11
+"NC048","Essay","Art",2025-06-08,TRUE,29
+"NC048","Essay","English",2025-06-12,TRUE,57
+"NC048","Homework","Art",2025-06-09,TRUE,74
+"NC049","Exam","History",2025-06-02,FALSE,NA
+"NC049","Research Paper","English",2025-05-30,TRUE,1
+"NC049","Case Study","Science",2025-06-11,TRUE,96
+"NC050","Project","History",2025-06-01,TRUE,54
+"NC050","Research Paper","Art",2025-06-08,TRUE,83
+"NC050","Presentation","English",2025-06-01,TRUE,81
