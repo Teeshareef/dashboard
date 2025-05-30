@@ -195,11 +195,22 @@ with tab2:
         )
         
         if selected_student:
-            student_id_arr = filtered_summary[filtered_summary['Name'] == selected_student]['ID'].values
-            if len(student_id_arr) > 0:
-                student_id = student_id_arr[0]
-                student_scores = scores[scores['ID'] == student_id]
+            matching_students = filtered_summary[filtered_summary['Name'] == selected_student]
+            if matching_students.empty:
+                st.warning(f"No student found with the name {selected_student}")
+            else:
+                 # Handle if multiple students with same name
+                if len(matching_students) > 1:
+                     # Let user select the correct ID if duplicates exist
+                    selected_id = st.selectbox(
+                        f"Multiple students named {selected_student} found. Please select ID:",
+                        matching_students['ID'].tolist()
+                    )
+                else:
+                    selected_id = matching_students['ID'].values[0]
 
+                # Now filter scores by selected_id
+                student_scores = scores[scores['ID'] == selected_id]
                 if not student_scores.empty:
                     fig = px.bar(
                         student_scores, 
@@ -212,9 +223,7 @@ with tab2:
                     )
                     st.plotly_chart(fig, use_container_width=True)
                 else:
-                    st.warning(f"No score data available for {selected_student}")
-            else:
-                st.warning(f"Student ID not found for {selected_student}")
+                    st.warning(f"No score data available for {selected_student} (ID: {selected_id})")
 
 
 with tab3:
