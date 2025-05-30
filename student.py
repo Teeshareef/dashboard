@@ -61,7 +61,7 @@ with tab1:
     with col1:
         st.subheader("Top Scholars")
         top_performers = summary.sort_values('Average Score', ascending=False).head(5)
-        st.dataframe(top_performers[['Name', 'Class', 'Section', 'AverageScore']])
+        st.dataframe(top_performers[['Name', 'Class', 'Section', 'Average Score']])
     
     with col2:
         st.subheader("Students Needing Support")
