@@ -27,9 +27,6 @@ def load_data():
 
 profiles, assignments, attendance, remarks, scores, summary = load_data()
 
-# Dashboard layout
-st.set_page_config(layout="wide", page_title="Student Dashboard")
-st.title("Student Performance Dashboard")
 
 # Sidebar filters
 st.sidebar.header("Filters")
